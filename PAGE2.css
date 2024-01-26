@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+    padding: 10px 90px;
+}
+
+.main-nav {
+    float: left;
+    padding: 22px 20px;
+    height: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    line-height: 80px;
+    font-size: 14px;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 6px;
+}
+
+.image01 {
+    width: 50%;
+    height: 50%;
+    float: right;
+    padding-left: 18px;
+}
+
+.div01 {
+    padding: 15px 15px 15px 30px;
+    font-family: poppins;
+}
+
+h1 {
+    padding: 170px 30px 30px 30px;
+    text-align: center;
+    font-family: poppins;
+
+}
+
+span {
+    border: 4px solid gray;
+    padding: 15px;
+}
+
+span:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.vl1 {
+    height: 433px;
+    border: 0.5px solid #db6868;
+    width: 0.5px;
+    background-color: #db6868;
+    margin-top: -325px;
+    margin-left: 640px;
+}
+
+.div02 {
+    padding: 15px 15px 15px 30px;
+    font-family: poppins;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image02 {
+    height: 50%;
+    width: 50%;
+    float: left;
+    padding-right: 18px;
+}
+
+.div02 p,
+.div02 img {
+    margin: 0;
+}
+
+.vl2 {
+    height: 365px;
+    border: 0.5px solid #02149d;
+    width: 0.5px;
+    background-color: #02149d;
+    margin-top: -382px;
+    margin-left: 690px;
+}
+
+.div03 {
+    padding: 15px 15px 15px 30px;
+    font-family: poppins;
+    justify-content: space-evenly;
+}
+
+.image03 {
+    height: 50%;
+    width: 50%;
+    float: right;
+    padding-left: 18px;
+}
+
+.vl3 {
+    height: 394px;
+    border: 0.5px solid #ed5204;
+    width: 0.5px;
+    background-color: #ed5204;
+    margin-top: -300px;
+    margin-left: 640px;
+}
+
+.div04 {
+    padding: 15px 15px 15px 30px;
+    font-family: poppins;
+    justify-content: space-evenly;
+}
+
+.image04 {
+    height: 50%;
+    width: 50%;
+    float: left;
+    padding-right: 18px;
+}
+
+.vl4 {
+    height: 388px;
+    border: 0.5px solid #b4ae40;
+    width: 0.5px;
+    background-color: #b4ae40;
+    margin-top: -300px;
+    margin-left: 662px;
+}
+
+.div05 {
+    padding: 15px 15px 15px 30px;
+    font-family: poppins;
+    justify-content: space-evenly;
+}
+
+.image05 {
+    height: 50%;
+    width: 50%;
+    float: right;
+    padding-left: 18px;
+}
+
+.vl5 {
+    height: 428px;
+    border: 0.5px solid #5b73bc;
+    width: 0.5px;
+    background-color: #5b73bc;
+    margin-top: -350px;
+    margin-left: 640px;
+}
+
+.div06 {
+    padding: 15px 15px 15px 30px;
+    font-family: poppins;
+    justify-content: space-evenly;
+}
+
+.image06 {
+    height: 50%;
+    width: 50%;
+    float: left;
+    padding-right: 18px;
+}
+
+.vl6 {
+    height: 424px;
+    border: 0.5px solid #a0b1c3;
+    width: 0.5px;
+    background-color: #a0b1c3;
+    margin-top: -325px;
+    margin-left: 660px;
+}
+
+.div07 {
+    padding: 15px 15px 15px 30px;
+    font-family: poppins;
+    justify-content: space-evenly;
+}
+
+.image07 {
+    height: 50%;
+    width: 50%;
+    float: right;
+    padding-left: 18px;
+}
+
+.vl7 {
+    height: 366px;
+    border: 0.5px solid #4b5a5d;
+    width: 0.5px;
+    background-color: #4b5a5d;
+    margin-top: -375px;
+    margin-left: 640px;
+}
+
+footer {
+    background-color: black;
+}
+
+.main-footer {
+    display: flex;
+    padding: 23px 122px;
+    color: white;
+    font-family: poppins;
+    justify-content: space-evenly;
+    padding-top: 50px;
+
+}
+
+.main-footer>div {
+    width: 223px;
+}
+
+.main-footer div ul li a:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+footer div ul li {
+    list-style: none;
+    text-decoration: none;
+    font-family: poppins;
+
+}
+
+footer div ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+footer .copyrights {
+    text-align: center;
+    padding: 12px 0;
+    color: gray;
+}
+
+.footer2 {
+    padding-left: 90px;
+}
